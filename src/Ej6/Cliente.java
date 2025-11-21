@@ -32,4 +32,3 @@ public class Cliente {
         return gen.generateKeyPair();
     }
 }
-
