@@ -1,16 +1,12 @@
 package Ej5;
 
 import javax.crypto.Cipher;
-import javax.crypto.KeyGenerator;
-import javax.crypto.SecretKey;
-import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
 import java.security.KeyPair;
 import java.security.KeyPairGenerator;
 import java.security.PrivateKey;
-import java.util.Arrays;
 
 public class Cliente {
     public static void main(String[] args) throws Exception {
@@ -41,3 +37,4 @@ public class Cliente {
         return gen.generateKeyPair();
     }
 }
+
